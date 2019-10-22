@@ -120,7 +120,7 @@ class Square(Shape):
     perimeter = self.__side * 4
     return perimeter
 
-  def change_radius(self, new_side):
+  def change_side(self, new_side):
     """Changing the side of the square shape instance.
     
     Parameters
