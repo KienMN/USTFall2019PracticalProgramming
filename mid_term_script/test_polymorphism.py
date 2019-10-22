@@ -12,14 +12,14 @@ if __name__ == "__main__":
   square = Square(side=3)
 
   # Calling methods
-  print('Info:')
+  print('1. Info:')
   print(circle.get_info())
   print(square.get_info())
 
-  print('Calculating surface:')
+  print('2. Calculating surface:')
   print('Circle:', circle.calculate_surface())
   print('Square:', square.calculate_surface())
 
-  print('Calculating perimeter:')
+  print('3. Calculating perimeter:')
   print('Circle:', circle.calculate_perimeter())
   print('Square:', square.calculate_perimeter())

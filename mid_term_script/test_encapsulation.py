@@ -11,15 +11,15 @@ if __name__ == "__main__":
   circle = Circle(radius=4)
 
   # Getting info of the original object.
-  print('Original circle object.')
+  print('1. Original circle object.')
   print(circle.get_info())
 
   # Changing value of private attribute directly.
   circle.__radius = 5
-  print('The circle object after changing the radius directly.')
+  print('2. The circle object after changing the radius directly.')
   print(circle.get_info())
 
   # Changing value of private attribute via class method.
   circle.change_radius(new_radius=5)
-  print('The circle object after using change_radius method.')
+  print('3. The circle object after using change_radius method.')
   print(circle.get_info())
